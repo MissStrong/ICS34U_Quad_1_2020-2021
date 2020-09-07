@@ -1,4 +1,4 @@
-## Note - Ethical Computer Use
+## Note – Ethical Computer Use
 
 ### Ethical and Social Implications of Computer Use
 
@@ -24,11 +24,11 @@ The first thing to remember when you are working at a computer at school or in t
 
 Sending personal email, playing games, or looking at offensive material on the Internet is inappropriate computer use.
 
-It may seem harmless to complete personal tasks while at school or work; however, according to SpectorSoft, employees average 45 minutes EVERY day doing personal web surfing! When you consider the number of employees in an organization, this can really add up and create productivity problems for employers.
+It may seem harmless to complete personal tasks while at school or work; however, according to SpectorSoft, employees average 45 minutes EVERY day doing personal web surfing! When you consider the number of employees in an organization, this can really add up and create productivity problems for employers.
 
 ### Internet Acceptable Use Policy
 
-Many institutions (schools and employers) publish Acceptable Use Policies which typically contain rules and guidelines regarding computer use. These guidelines suggest that employees
+Many institutions (schools and employers) publish Acceptable Use Policies which typically contain rules and guidelines regarding computer use. These guidelines suggest that employees
 
 * use appropriate language
 * do not access, upload, download, or distribute inappropriate materials
