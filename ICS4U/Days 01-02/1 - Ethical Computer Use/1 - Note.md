@@ -1,4 +1,4 @@
-## Lesson
+## Lesson - Ethical Computer Use
 
 ### Ethical and Social Implications of Computer Use
 
@@ -22,7 +22,7 @@ Knowing some simple ethical guidelines can help ensure your safety and help you 
 
 The first thing to remember when you are working at a computer at school or in the workplace is that the computer is there to help you get your work done.
 
-Sending personal e-mail, playing games, or looking at offensive material on the Internet is inappropriate computer use.
+Sending personal email, playing games, or looking at offensive material on the Internet is inappropriate computer use.
 
 It may seem harmless to complete personal tasks while at school or work; however, according to SpectorSoft, employees average 45 minutes EVERY day doing personal web surfing! When you consider the number of employees in an organization, this can really add up and create productivity problems for employers.
 
@@ -39,13 +39,13 @@ Many institutions (schools and employers) publish Acceptable Use Policies whic
 
 Did you know that it is legal for employers to install software programs to monitor employee computer use?
 
-Hidden software can be used to watch everything users do while they are on a computer. This software monitors websites, e-mails sent and received, chats and instant messages, keystrokes typed, files transferred, documents printed, and applications run.
+Hidden software can be used to watch everything users do while they are on a computer. This software monitors websites, emails sent and received, chats and instant messages, keystrokes typed, files transferred, documents printed, and applications run.
 
 Internet filtering software can also be used to control what sites computers within an organization are able to visit.
 
-Some people argue that employers who use this type of software are invading the privacy of their employees. However, it should be noted that companies who fail to properly monitor their employees' Internet behaviour can be held responsible for harm caused to third parties as a result of an employee's inappropriate use of a workplace computer. For example, an American company was held liable for the actions of an employee who uploaded child pornography from his workplace computer. To read more about this case, a link has been included in the Resources section of this page.
+Some people argue that employers who use this type of software are invading the privacy of their employees. However, it should be noted that companies who fail to properly monitor their employees' Internet behaviour can be held responsible for harm caused to third parties as a result of an employee's inappropriate use of a workplace computer. For example, an American company was held liable for the actions of an employee who uploaded child pornography from his workplace computer.
 
-It is very important to always remember that nothing you write or upload on the web is completely private, including e-mail and instant messages - so be careful and think about what you type, what you upload, and who you talk to.
+It is very important to always remember that nothing you write or upload on the web is completely private, including email and instant messages - so be careful and think about what you type, what you upload, and whom you talk to.
 
 ### Ethics for Computer Programmers
 
@@ -57,20 +57,10 @@ Computer programmers must also consider the impact they have on computer users. 
 
 There are several professional associations composed of IT professionals whose purpose it is to provide support, resources, and guidelines for the advancement of technology.
 
-### Example
-
-The Association for Computing Machinery (ACM) is such an organization. Founded in 1947, the ACM publishes information relating to computer science, holds seminars, and promotes computer standards.
-
-The Institute of Electrical and Electronics Engineers (IEEE), dating back to 1884, is an organization composed of engineers, scientists, and students. The IEEE is best known for developing technical standards for the computer and electronics industry.
-
-Both of these organizations publish a Code of Ethics to be followed by their members.
-
 ### Resources
 
 <p>To learn more about Computer Associations and their Codes of Ethics, you may wish to visit the following sites:</p>
 <ol>
-<li><a href="http://www.acm.org/" target="_blank" rel="noopener">Association for Computing Machinery (ACM)</a></li>
-<li><a href="http://www.acm.org/about/code-of-ethics?searchterm=ETHICS" target="_blank" rel="noopener">Code of Ethics ACM</a></li>
-<li><a href="http://www.ieee.org/" target="_blank" rel="noopener">Institute of Electrical and Electronics Engineers (IEEE)</a></li>
-<li><a href="http://www.ieee.org/portal/cms_docs/about/CoE_poster.pdf" target="_blank" rel="noopener">Code of Ethics IEEE</a></li>
+<li><a href="http://www.acm.org/about/code-of-ethics?searchterm=ETHICS" target="_blank" rel="noopener">ACM Code of Ethics</a></li>
+<li><a href="http://www.ieee.org/portal/cms_docs/about/CoE_poster.pdf" target="_blank" rel="noopener">IEEE Code of Ethics</a></li>
 </ol>
