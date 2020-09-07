@@ -14,36 +14,36 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Functions
 * Conditionals
 * Loops
+* Tracing and Debugging
 * Emerging Technologies
 
 ### Days 5-6
 
-* One-Dimensional Arrays
+* Lists
 * Dictionaries
 * Enrivonmental Sustainability
 
 ### Days 7-9
 
-* Flowcharts
-* ?
-* ?
+* Testing
+* Exception Handling
+* File Maintenance
 
 ### Days 10-12
 
-* ?
-* ?
+* Libraries
+* Turtle Graphics
 * Computer Science Research
 
 ### Days 13-15
 
-* ?
-* ?
-* ?
+* Binary, ASCII, and Unicode
+* Computer Components
 * Post-Secondary Opportunities
 
 ### Days 16-18
 
-* ?
+* Flowcharts
 * Software Developent Life Cycle
 
 ### Days 19-22

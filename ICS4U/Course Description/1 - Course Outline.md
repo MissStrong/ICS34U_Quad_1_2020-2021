@@ -8,7 +8,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Print Statements
 * Data Types
 
-### Days 3-4
+### Days 3-4
 
 * Methods
 * Conditionals
