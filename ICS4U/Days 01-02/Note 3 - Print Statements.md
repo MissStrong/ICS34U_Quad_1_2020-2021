@@ -6,7 +6,7 @@ The **console**, also known as the output window, is the default location where 
 
 In repl.it, the console is the black window on the right side of the screen.
 
-![](../../Images/Hello_World_Full.png)
+![](../../Images/Hello_World_Java_Full.png)
 
 ### Hello World!
 
@@ -16,9 +16,9 @@ The above image is an example of the Hello World program in Java using repl.it. 
 
 ### System.out.println()
 
-The most common method for printing in Java is `System.out.println()`. *Println* is pronounced as *print line*. When you use this method, it **must** be inside of the `main()` method or a custom method in order for it to work.
+The most common method for printing in Java is `System.out.println()`. *Println* is pronounced as *print line*. When you use this method, it **must** be inside of the `main()` method or a custom method in order for it to work. You cannot use just `println()` on its own – you need to write `System.out.println()` in full so that the interpreter knows where to find the method you're using (there may be different `println()` methods in other locations).
 
-In the example above, `System.out.println()` takes the string `"Hello World!"`, but it can also take numbers, booleans, characters, and other data types. The next lesson will cover different data types in Java.
+In the example above, `System.out.println()` takes the string `"Hello World!"`, but it can also take numbers, booleans, characters, and other data types. The next lesson will cover different data types in Java. The semicolon at the end of the method call is necessary for the program to run.
 
 ### System.out.print()
 

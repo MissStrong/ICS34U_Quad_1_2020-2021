@@ -18,7 +18,7 @@ A **class variable** is a variable that is declared within a class scope and has
 
 A **local variable** is a variable that is declared within a local scope. It may be used only within the context (e.g. a method or a loop) it was declared in. It is lost when its context is completed.
 
-A **data type** is the kind of data that a variable can store. Once you declare a variable or constant to be a specific data type, that variable or constant can only store values of that data type. There are many built-in data types, but you can also create your own data types using classes. In this course, you saw the data type `String` in the About Me activity.
+A **data type** is the kind of data that a variable can store. Once you declare a variable or constant to be a specific data type, that variable or constant can only store values of that data type. There are many built-in data types, but you can also create your own data types using classes.
 
  
 
