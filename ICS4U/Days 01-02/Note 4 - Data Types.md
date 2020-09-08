@@ -82,8 +82,6 @@ In different programming languages, there are different rules for naming. Here a
 | Snake Case       | this_is_snake_case       | Every letter is lowercase.<br/><br/>Words are separated with underscores. |
 | Caterpillar Case | this-is-caterpillar-case | Every letter is lowercase.<br/><br/>Words are separated with hyphens. |
 
-
-
 ### Naming Conventions/Rules for Java
 
 * Variable names should begin with a lowercase letter, a dollar sign, or an underscore. (Beginning a variable name with a dollar sign or underscore serves a specific purpose. Google it if you're curious.)
@@ -94,6 +92,17 @@ In different programming languages, there are different rules for naming. Here a
 
 In general, you should use descriptive names for variables to help create code that is self-explanatory.
 
+### Special Characters
+
+In order to put any of the following special characters in a string, you need to put the **escape character** ``\`` in front of it.
+
+| Name                  | Special Character                                            |
+| --------------------- | ------------------------------------------------------------ |
+| tab                   | `\t`                                                         |
+| new line              | `\n`                                                         |
+| backslash             | `\\`                                                         |
+| single quotation mark | `\'` (You only need to use this when the string in enclosed in single quotation marks.) |
+| double quotation mark | `\"` (You only need to use this when the string in enclosed in double quotation marks.) |
 
 ### Type Conversion
 
@@ -110,6 +119,13 @@ These are all the examples of casting that can be done in Java:
 * `float` → `byte`, `short`, `char`, `int`, or `long`
 * `double` → `byte`, `short`, `char`, `int`, `long`, or `float`
 * any variable → `String`
+
+Here are some examples of methods used for casting.
+
+```java
+int num = Integer.parseInt("6") // this changes the string "6" into the integer 6
+String total = Integer.toString(6) // this changes the integer 6 into the string "6"
+```
 
 The other kind of type conversion is **implicit conversion** (a.k.a. **coercion**). This is done automatically by Java when a program is running. For example, when a value of one numeric type is assigned to a variable of a different numeric type, the numeric types are implicitly converted to the other numeric types.
 
