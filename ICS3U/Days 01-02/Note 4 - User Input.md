@@ -19,10 +19,10 @@ Let's look at the code more carefully:
 ```python
 name = input("What is your name? ")
 number = input("Pick a number between 1 and 10. ")
-colour = input("What is your favourite colour?")
+colour = input("What is your favourite colour? ")
 ```
 
-These three lines are the prompts. Each input is stored into a variable, `name`, `number`, or `colour`. The space before the rightmost quotation marks provide space between the prompt and the response.
+These three lines are the prompts. Each input is stored into a variable, `name`, `number`, or `colour` as a string. The space before the rightmost quotation marks provide space between the prompt and the response.
 
 ``` python
 print(name, number, colour)

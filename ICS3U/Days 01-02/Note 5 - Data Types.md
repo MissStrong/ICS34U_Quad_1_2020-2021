@@ -33,7 +33,28 @@ person = "Chris" # we have created the variable person and assigned a value of "
 ```
 In general, you should use descriptive names for variables to help create code that is self-explanatory.
 
+### Special Characters
 
+In order to put any of the following special characters in a string, you need to put the **escape character** ``\`` in front of it.
+
+| Name                  | Special Character                                            |
+| --------------------- | ------------------------------------------------------------ |
+| tab                   | `\t`                                                         |
+| new line              | `\n`                                                         |
+| backslash             | `\\`                                                         |
+| single quotation mark | `\'` (You only need to use this when the string in enclosed in single quotation marks.) |
+| double quotation mark | `\"` (You only need to use this when the string in enclosed in double quotation marks.) |
+
+### Casting
+
+A **type conversion** occurs when a value is changed into a value of a different but compatible type. 
+
+**Casting** involves using a function to change a variable's data type. In Python, you do this by wrapping the variable in parentheses and placing either `int`or `str` in front.
+
+```python
+num = int("6") # this changes the string "6" into the integer 6
+total = str(6) # this changes the integer 6 into the string "6"
+```
 
 ### Naming Notations
 
@@ -47,8 +68,6 @@ In different programming languages, there are different rules for naming. Here a
 | Caterpillar Case | this-is-caterpillar-case | Every letter is lowercase.<br/><br/>Words are separated with hyphens. |
 
 In Python, the convention is to use snake case for variables and functions. (We'll get to what a function is in a later lesson.)
-
-
 
 
 ### Mathematical Operators
