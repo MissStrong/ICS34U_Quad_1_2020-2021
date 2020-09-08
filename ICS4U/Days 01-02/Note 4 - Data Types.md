@@ -119,6 +119,7 @@ These are all the examples of casting that can be done in Java:
 * `float` → `byte`, `short`, `char`, `int`, or `long`
 * `double` → `byte`, `short`, `char`, `int`, `long`, or `float`
 * any variable → `String`
+* `String` → any variable
 
 Here are some examples of methods used for casting.
 
