@@ -94,15 +94,46 @@ In general, you should use descriptive names for variables to help create code t
 
 ### Special Characters
 
-In order to put any of the following special characters in a string, you need to put the **escape character** ``\`` in front of it.
+Strings are made up of characters, which are typically letters, numbers, and spaces. There are also special characters, such as tabspace and newline that can appear in strings.
 
-| Name                  | Special Character                                            |
-| --------------------- | ------------------------------------------------------------ |
-| tab                   | `\t`                                                         |
-| new line              | `\n`                                                         |
-| backslash             | `\\`                                                         |
-| single quotation mark | `\'` (You only need to use this when the string in enclosed in single quotation marks.) |
-| double quotation mark | `\"` (You only need to use this when the string in enclosed in double quotation marks.) |
+Special characters begin with a backslash `\`.
+
+| Special Character                      | Code |
+| -------------------------------------- | ---- |
+| tabspace                               | `\t` |
+| backspace                              | `\b` |
+| carriage return (i.e. enter or return) | `\r` |
+| newline                                | `\n` |
+
+Here is an example of how you can use a special character.
+
+```java
+// Prints "This is Line 1" on the one line, then "This is Line 2" on the next line
+System.out.println("This is Line1\nThis is Line 2");
+```
+
+However, ``println()`` is designed to print one line at a time, so it is preferable to do the following instead.
+
+```java
+System.out.println("This is Line 1");
+System.out.println("This is Line 2");
+```
+
+The backslash is called an **escape character**, since it "escapes" the next character.
+
+You can also use the escape character to create strings that contain double quotation marks and characters that contain a single quotation mark.
+
+```java
+System.out.println("\""); // Prints a double quotation mark
+System.out.println("\"\""); // Prints two double quotation marks
+System.out.println('\''); // Prints a single quotation mark
+```
+
+To create a string with a backslash, you put an escape character in front of it.
+
+```java
+System.out.println("\\"); // Prints a backslash
+```
 
 ### Type Conversion
 

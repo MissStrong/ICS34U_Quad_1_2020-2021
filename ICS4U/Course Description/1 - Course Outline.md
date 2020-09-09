@@ -14,6 +14,8 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Conditionals
 * Loops
 * Exception Handling
+* String Manipulation and Regular Expressions
+* I/O with Text Files
 * Emerging Technologies
 
 ### Days 5-6
