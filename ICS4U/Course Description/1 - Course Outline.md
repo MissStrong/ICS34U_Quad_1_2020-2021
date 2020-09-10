@@ -7,10 +7,10 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Ethical Computer Use
 * Print Statements
 * Data Types
+* Methods
 
 ### Days 3-4
 
-* Methods
 * Conditionals
 * Loops
 * Exception Handling
