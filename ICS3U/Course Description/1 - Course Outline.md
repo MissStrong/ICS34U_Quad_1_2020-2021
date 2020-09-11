@@ -21,7 +21,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 * Lists
 * Dictionaries
-* Enrivonmental Sustainability
+* Environmental Sustainability
 
 ### Days 7-9
 
