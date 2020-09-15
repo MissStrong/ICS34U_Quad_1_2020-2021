@@ -19,9 +19,7 @@ Here are all the operators you can use in Python to create Boolean expressions.
 | NOT | `not` | Boolean Operator | `not (3 < 5) # false`	| The statement in the parentheses is `true`, so the expression is the negation of that, which is `false`. |
 | AND | `and` | Boolean Operator | `(3 < 5) and (3 > 5) # false`	| At least one of those two statements is `false`, so the expression is `false`. |
 | OR | `or` | Boolean Operator | `(3 < 5) or (3 > 5) # true`	| At least one of those two statements is `true`, so the expression is `true`. |
- 
-
-The convention to write the names of Boolean operators in all capital letters. That's why NOT, AND, OR, and XOR are in all capital letters.
+ The convention to write the names of Boolean operators in all capital letters. That's why NOT, AND, OR, and XOR are in all capital letters.
 
 
 ### Conditional Statements
@@ -38,11 +36,10 @@ number = int(input("Pick a number between 1 and 10: "))
 
 if number > 10:
   print("Your number is too high!")
-} elif number < 1:
+elif number < 1:
   print("Your number is too low!")
-} else {
+else:
   print("Thanks.")
-}
 ```
 * An `if` block runs only if the condition is `true`. 
 * `elif` is short for "else if". Any `elif` blocks run only if all the previous conditions in the conditional structure are `false` (the "else" in `elif`) and the new condition is true (the "if" in else if).
