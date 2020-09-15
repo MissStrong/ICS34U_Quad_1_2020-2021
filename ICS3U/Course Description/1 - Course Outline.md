@@ -11,10 +11,9 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 3-4
 
-* Functions
 * Conditionals
 * Loops
-* Tracing and Debugging
+* Functions
 * Emerging Technologies
 
 ### Days 5-6

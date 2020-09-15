@@ -1,4 +1,4 @@
-## Strings
+## Note – String Manipulation and Regular Expressions
 
 
 ### Strings and Loops

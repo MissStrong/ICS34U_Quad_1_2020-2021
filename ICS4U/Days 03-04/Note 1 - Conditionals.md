@@ -2,7 +2,7 @@
 
 ### Boolean Expressions
 
-It was mentioned in *Note – Data Types* that a `boolean` is a value that is `true` or `false`. A `boolean` is one of the eight primitive data types, which is why the keyword `boolean` is all lowercase. 
+A `boolean` is one of the eight primitive data types. Like all primitive data types, it is written in all lowercase letters.
 
 A **Boolean expression** is an expression that evaluates to either `true` or `false`. You can create Boolean expressions using **comparison operators**, **equality operators**, and **Boolean operators**.
 
@@ -20,6 +20,8 @@ Here are all the operators you can use in Java to create Boolean expressions.
 | AND | `&&` | Boolean Operator | `(3 < 5) && (3 > 5) // false`	| At least one of those two statements is `false`, so the expression is `false`.<br/></br>There is a similar operator, `&`, called a bitwise operator, which does something completely different. Look it up if you're interested. |
 | OR | `||` | Boolean Operator | `(3 < 5) || (3 > 5) // true`	| At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br/></br>The pipe character is typically found above or beside the ENTER key on your keyboard. |
 | XOR | `^` | Boolean Operator | `(3 < 5) ^ (3 > 5) // true`	| Exactly one of those two statements is `true`, so the expression is `true`.<br/></br>XOR is called "exclusive OR". It's like OR, except it returns `false` when more than one statement is `true`.<br/></br>The `^` symbol is called a "caret", not to be confused with "carrot" or "carat". |
+
+
 The convention to write the names of Boolean Operators in all capital letters. That's why NOT, AND, OR, and XOR are in all capital letters.
 
 The comparison operators can also be used with `char` values.  It compares them based on character order (which is sort of like alphabetical order, except it compares the ASCII values). The comparison operators cannot be used for `String` values.

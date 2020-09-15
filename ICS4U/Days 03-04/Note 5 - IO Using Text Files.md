@@ -2,26 +2,27 @@
 
 ### I/O
 
-**Input/output** (commonly referred to as **I/O** or **IO**, not to be confused with the domain name *.io*) in computer science refers to the interactions between a program and an external source (e.g. a device, a file, a GUI, etc.).
+**Input/output** (commonly referred to as **I/O** or **IO**, not to be confused with the top-level domain name *.io*) in computer science refers to the interactions between a program and an external source (e.g. a device, a file, a graphic user interface, etc.).
 
 
 ### Reading Text Files
 
 In Java, there are several classes that can be used to read files. `Scanner` is one of the most convenient classes for parsing text files.
 
-`Scanner` can look at a text file and tell you its content one "word" (i.e. a **token**) at a time or one line at a time. A token is a string of characters that is surrounded by whitespace character on both ends.
+`Scanner` can look at a text file and tell you its content one "word" (i.e. a **token**) at a time or one line at a time. A token is a string of characters that is surrounded by whitespace characters on both ends.
 
 In the `Scanner` class, you can use the `hasNext()` and `next()` methods for reading one token at a time, and the `hasNextLine()` and `nextLine()` methods for reading one line at a time. 
 
 ```java
+/**
+ * @author MissStrong
+ */
+
 // The program uses all the following classes, so they have to be imported
 import java.io.File; 
 import java.io.IOException;
 import java.util.Scanner; 
 
-/**
- * @author MissStrong
- */
 public class Main {
 
     /**
@@ -36,12 +37,12 @@ public class Main {
             Scanner scanner = new Scanner(inputFile); 
             
             /* 
-             * The hasNextLine method returns true when there is still one more
-             * line left in the file.
+             * The hasNextLine() method returns true when there is still at least
+             * one more line left in the file.
              */
             while (scanner.hasNextLine()) {
                 /* 
-                 * The nextLine method returns the content of the current line
+                 * The nextLine() method returns the content of the current line
                  * and moves on to the next line 
                  */
                 String line = scanner.nextLine();
