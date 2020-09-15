@@ -6,7 +6,7 @@ A **Boolean expression** is an expression that evaluates to either `True` or `Fa
 
 You can create Boolean expressions using **comparison operators**, **equality operators**, and **Boolean operators**.
 
-Here are all the operators you can use in Python to create Boolean expressions.
+Here are all the operators you can use in Python to create Boolean expressions.  The convention to write the names of Boolean operators in all capital letters. That's why NOT, AND, OR, and XOR are in all capital letters.
 
 | Operator Name | Operator Symbol | Category | Example | Explanation |
 | --- | --- | --- | --- | --- |
@@ -19,8 +19,6 @@ Here are all the operators you can use in Python to create Boolean expressions.
 | NOT | `not` | Boolean Operator | `not (3 < 5) # false`	| The statement in the parentheses is `true`, so the expression is the negation of that, which is `false`. |
 | AND | `and` | Boolean Operator | `(3 < 5) and (3 > 5) # false`	| At least one of those two statements is `false`, so the expression is `false`. |
 | OR | `or` | Boolean Operator | `(3 < 5) or (3 > 5) # true`	| At least one of those two statements is `true`, so the expression is `true`. |
- The convention to write the names of Boolean operators in all capital letters. That's why NOT, AND, OR, and XOR are in all capital letters.
-
 
 ### Conditional Statements
 
