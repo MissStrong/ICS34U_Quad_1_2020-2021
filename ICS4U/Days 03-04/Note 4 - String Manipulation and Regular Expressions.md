@@ -120,20 +120,20 @@ For example, you can use regular expressions to find patterns in Google Docs. Th
 
 ![](../../Images/Find_And_Replace.png)
 
-| Syntax   | Description                                                  | Example             | Explanation                                                  |
-| -------- | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
-| `()`     | Used as standard brackets in expressions.                    |                     |                                                              |
-| `\|`     | Used for choices.<br></br>Think of it as an OR operator.     | (T\|t)hou           | Matches "Thou" or "thou".                                    |
-| `+`      | Matches the preceding expression one or more times.          | The+                | Matches "The", "Thee", "Theee", etc.                         |
-| `*`      | Matches the preceding expression zero or more times.         | Hey*                | Matches "He", "Hey", "Heyy", "Heyyy", etc.                   |
-| `?`      | Matches the preceding expression zero or one time.           | Thou(gh)?           | Matches "Thou" and "Though".                                 |
-| `{n, m}` | Matches the preceding expression between n and m times.      | No{1,7}             | Matches "No", "Noo", "Nooo", up until "Nooooooo".            |
-| `^`      | Matches the start of a line.                                 | ^The                | Matches "The" at the beginning of any line.                  |
-| `$`      | Matches the end of a line.                                   | end$                | Matches "end" at the end of any line.                        |
-| `.`      | Matches any character.                                       | .at                 | Matches occurrences of "at" that have a preceding character. |
-| `[...]`  | Matches any character in the square brackets.<br></br>(A\|B\|C) behaves the same way as [ABC] | [bchm]at<br></br>(b | c                                                            |
-| `[^...]` | Matches any character not in the square brackets.            | [^p]at              | Matches occurrences of "at" except the ones that have a "p" before it. |
-| `\`      | Escape character. Used for characters that belong to syntax. | `\.`                | Matches `.`.                                                 |
+| Syntax   | Description                                                  | Example           | Explanation                                                  |
+| -------- | ------------------------------------------------------------ | ----------------- | ------------------------------------------------------------ |
+| `()`     | Used as standard brackets in expressions.                    |                   |                                                              |
+| `\|`     | Used for choices.<br></br>Think of it as an OR operator.     | (T\|t)hou         | Matches "Thou" or "thou".                                    |
+| `+`      | Matches the preceding expression one or more times.          | The+              | Matches "The", "Thee", "Theee", etc.                         |
+| `*`      | Matches the preceding expression zero or more times.         | Hey*              | Matches "He", "Hey", "Heyy", "Heyyy", etc.                   |
+| `?`      | Matches the preceding expression zero or one time.           | Thou(gh)?         | Matches "Thou" and "Though".                                 |
+| `{n, m}` | Matches the preceding expression between n and m times.      | No{1,7}           | Matches "No", "Noo", "Nooo", up until "Nooooooo".            |
+| `^`      | Matches the start of a line.                                 | ^The              | Matches "The" at the beginning of any line.                  |
+| `$`      | Matches the end of a line.                                   | end$              | Matches "end" at the end of any line.                        |
+| `.`      | Matches any character.                                       | .at               | Matches occurrences of "at" that have a preceding character. |
+| `[...]`  | Matches any character in the square brackets.<br></br>(A\|B\|C) behaves the same way as [ABC] | [bchm]at<br></br> | Matches "bat", "cat", "hat", and "mat".                      |
+| `[^...]` | Matches any character not in the square brackets.            | [^p]at            | Matches occurrences of "at" except the ones that have a "p" before it. |
+| `\`      | Escape character. Used for characters that belong to syntax. | `\.`              | Matches `.`.                                                 |
 
 Tip: The regular expression `.*` matches any sequence of characters.
 
