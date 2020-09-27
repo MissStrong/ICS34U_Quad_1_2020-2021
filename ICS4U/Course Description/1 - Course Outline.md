@@ -30,25 +30,25 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Searching Routines
 * Sorting Routines
 
-### Days 10-12
+### Days 10-13
 
 * Graphical User Interfaces
 * Two-Dimensional Arrays
+* Abstract Data Types
 * Computer Science Research
 
-### Days 13-15
+### Days 14-15
 
 * Recursion
 * Finite Data Representation
-* Abstract Data Types
 * Post-Secondary Opportunities
 
-### Days 16-18
+### Days 16-17
 
 * Object-Oriented Programming
 * Software Developent Life Cycle
 
-### Days 19-22
+### Days 18-20
 
 * Culminating Task
 

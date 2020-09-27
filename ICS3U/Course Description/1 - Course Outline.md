@@ -28,24 +28,24 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Exception Handling
 * File Maintenance
 
-### Days 10-12
+### Days 10-13
 
 * Libraries
 * Turtle Graphics
 * Computer Science Research
 
-### Days 13-15
+### Days 14-15
 
 * Binary, ASCII, and Unicode
 * Computer Components
 * Post-Secondary Opportunities
 
-### Days 16-18
+### Days 16-17
 
 * Flowcharts
 * Software Developent Life Cycle
 
-### Days 19-22
+### Days 18-20
 
 * Culminating Task
 
