@@ -16,9 +16,9 @@ for (int i = 0; i < word.length(); i++) {
 }
 ```
 
-N.B.: You can't use `word[i]` to access the character at index `i` in Java, although other programming languages allow this. 
+N.B.: You can't use `word[i]` to access the character at index `i` in Java, although other programming languages allow this. You have to use `word.charAt(i)` instead.
 
-For example, if you wanted to check whether the sentence "The quick brown fox jumps over the lazy dog" contains the letter "v", you can do the following:
+For example, if you wanted to check whether the sentence "The quick brown fox jumps over the lazy dog" contains the letter 'v', you can do the following:
 
 ```java
 String sentence = "The quick brown fox jumps over the lazy dog";
@@ -38,7 +38,7 @@ boolean sentenceHasJWord = false;
 String[] words = sentence.split("\\s+");
 
 for (String word : words) {
-    if (word.startsWith("j") sentenceHasJWord = true;
+    if (word.startsWith("j")) sentenceHasJWord = true;
 }
 ```
 
@@ -56,18 +56,21 @@ N.B.: Always assume that strings are case-sensitive when using any programming l
 | `endWith()` | `"monkey".endsWith("oy"); // false` | Checks whether `"monkey"` ends with `"oy"`. |
 | `contains()` | `"monkey".contains("onk"); // true` | Checks whether `"monkey"` contains `"onk"`. |
 
+N.B.: The equality operator `==` cannot be used to compare whether two strings are identical. When you use `==` for composite data types, it checks whether they are the same object (i.e. they are stored in the same location in memory).
 
-There are also several methods in the `String` class that are useful for modifying strings.
+ 
+
+There are also several methods in the `String` class that are useful.
 
 | Method | Example | Description |
 | --- | --- | --- |
 | `trim()` |  `"  monkey    ".trim(); // "monkey"` | Removes all whitespace at the beginning and end of the string. |
-| `substring()` | `"monkey".substring(2); // "nkey"<br></br>"monkey".substring(1, 3); // "on"` | Removes the first two characters.<br></br>Keeps only the characters between index 1 (inclusive) and 3 (exclusive). |
-| `toUpperCase()` | `"Monkey".toUpperCase(); // "MONKEY"` | Changes all lower case letters to be upper case letter. |
-| `toLowerCase()` | `"Monkey".toLowerCase(); // "monkey"` | Changes all upper case letters to be lower case letter. |
+| `substring()` | `"monkey".substring(2); // "nkey"`<br></br>`"monkey".substring(1, 3); // "on"` | Removes the first two characters.<br></br>Keeps only the characters between index 1 (inclusive) and 3 (exclusive). |
+| `toUpperCase()` | `"Monkey".toUpperCase(); // "MONKEY"` | Changes all lower case letters to be upper case letters. |
+| `toLowerCase()` | `"Monkey".toLowerCase(); // "monkey"` | Changes all upper case letters to be lower case letters. |
 | `toCharArray()` | `"monkey".toCharArray(); // {'m', 'o', 'n', 'k', 'e', 'y'}` | Creates a character array of the characters in the string. |
-| `replace()` | `"abcabc".replace("a", "ef"); //"efbcefbc"` | Replaces all occurrences of `"a"` with `"e"`. |
-| `replaceFirst()` |	`"abcabc".replaceFirst("a", "ef"); //"efbcabc"` | Replaces the first occurrence of `"a"` with `"e"`. |
+| `replace()` | `"abcabc".replace("a", "ef"); //"efbcefbc"` | Replaces all occurrences of `"a"` with `"ef"`. |
+| `replaceFirst()` |	`"abcabc".replaceFirst("a", "ef"); //"efbcabc"` | Replaces the first occurrence of `"a"` with `"ef"`. |
 
 
 It is sometimes useful to convert characters to integers (their ASCII value) to check whether they are a certain type of character (e.g. lower case letter, punctuation mark, whitespace, etc.).
@@ -101,7 +104,7 @@ Recall the *About Me assignment*. The `main` method contained strings that use t
 ```
 
 
-Another way to accomplish the same thing would be to use the `format method` in the `String` class.
+Another way to accomplish the same thing would be to use the `format` method in the `String` class.
 
 ```java
 String.format("My name is %s.", name);
@@ -113,10 +116,10 @@ The `%s` is a placeholder for `String`. There are placeholders for other data ty
 | --- | --- |
 | `char` | `%c` |
 | `int`, `byte`, `short`, `long` | `%d` |
-| `float` | `%e` for scientific notation<br></br>`%f` |
+| `float`, `double` | `%e` for scientific notation<br></br>`%f` |
 | `String` | `%s` |
 
-You can use multiple placeholders in the same string. The arguments are placed in order that their placeholders appear.
+You can use multiple placeholders in the same string. The arguments are placed in the order that their placeholders appear.
 
 ```java
 String name;

@@ -18,13 +18,13 @@ Here is a comparison of some of the ways to use arrays and array lists in Java.
 | Removing all the elements | N/A | `arrList.clear();` |
 | Printing all the elements	| `System.out.println(Arrays.toString(arr));` | `System.out.println(arrList);` |
 
-Note: You need to import `java.util.ArrayList` or `java.util.*` in order for these `ArrayList` methods to work.
+N.B.: You need to import `java.util.ArrayList` or `java.util.*` in order for these `ArrayList` methods to work.
 
-Java also has a class called `List`, which is similar to `ArrayList`. You won't be required to use `List` in this course, but you may use it if you feel that it would be useful.
+Java also has a class called `List`, which is similar to `ArrayList`. You won't be required to use `List` in this course, but you may use it if you find it useful.
 
 ### Array List of Primitive Data Types
 
-Array Lists can contain only one data type, and it cannot be a primitive data type. Each primitive data type has a corresponding class that you can use instead. The main difference between the primitive data type and the class is that a value of the class can be `null`, whereas the value of a primitive data type cannot be `null`.
+Array Lists can contain only one data type, and it cannot be a primitive data type. Each primitive data type has a corresponding class that you can use instead. 
 
 | Primitive Data Type | Class       |
 | ------------------- | ----------- |
@@ -36,5 +36,3 @@ Array Lists can contain only one data type, and it cannot be a primitive data ty
 | `double`            | `Double`    |
 | `boolean`           | `Boolean`   |
 | `char`              | `Character` |
-
-N.B.: The null character (the one that has an ASCII value of 0) is different than a value of a character being `null`. If a character is `null`, it's likely because it has not been initialized yet.

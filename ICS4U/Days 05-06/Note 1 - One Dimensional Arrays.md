@@ -4,12 +4,12 @@
 
 Depending on what programming language you used in your Grade 11 computer science course, you would have either learned about **arrays**, **lists**, or both.
 
-Arrays and lists are both data structures that store ordered sets of values, but there are a few major difference between them:
+Arrays and lists are both data structures that store ordered sets of values, but there are a few major differences between them:
 * arrays have fixed lengths; lists are dynamic in length
 * arrays could be immutable; lists are always mutable
-* arrays tend to have values of one data type; lists tend to be allowed to have values of more than one data type
+* arrays tend to have values of one data type; lists tend to allow values of more than one data type
 
-Here is a summary of what lists and arrays are called to in various languages.
+Here is a summary of what lists and arrays are called in various languages.
 
 | Language | List | Array |
 | --- | --- | --- |
@@ -21,9 +21,7 @@ Here is a summary of what lists and arrays are called to in various languages.
 | Processing | array list |	array |
 | Java | array list	| array |
 
-Java has an Array structure and an ArrayList structure. This lesson will be on Arrays; the next lesson will be on ArrayLists. 
-
-In Java, arrays are mutable and must hold values of only one data type.
+Java has an `Array` structure and an` ArrayList` structure. This lesson will be on Arrays; the next lesson will be on ArrayLists. 
 
 ### Declaring and Initializing Arrays
 
@@ -38,31 +36,31 @@ There are two common ways to initialize arrays.
  Here is an example.
 
 ```java
-String[] officeArray = {"Michael", "Dwight", "Jim", "Pam", "Stanley", "Phyllis", "Meredith", "Creed", "Kevin", "Oscar", "Angela"};
+String[] officeCast = {"Michael", "Dwight", "Jim", "Pam", "Stanley", "Phyllis", "Meredith", "Creed", "Kevin", "Oscar", "Angela", "Ryan", "Kelly", "Toby"};
 ```
 
 2. Declare the array, then fill the elements one by one.
- Here is an eample.
+ Here is an example.
 
 ```java
-String[] officeArray = new String[11];
-officeArray[0] = "Michael";
-officeArray[1] = "Dwight";
+String[] officeCast = new String[14];
+officeCast[0] = "Michael";
+officeCast[1] = "Dwight";
 ⋮
-officeArray[10] = "Angela";
+officeCast[13] = "Toby";
 ```
 
 In the first example:
-* `String[]` indicates that every element in the array will be string
-* `officeArray` is the name of the array
-* the eleven elements of the array are `"Michael"`, `"Dwight"`, ..., and `"Angela"`
+* `String[]` indicates that every element in the array will be a string
+* `officeCast` is the name of the array
+* the fourteen elements of the array are `"Michael"`, `"Dwight"`, ..., and `"Toby"`
 
 In the second example:
 * `String[]` indicates that every element in the array will be a string
-* `officeArray` is the name of the array
+* `officeCast` is the name of the array
 * `new` is the keyword that is used to create a new object, which is an array (you'll learn about this in more detail in a later lesson)
-* `String[11]` indicates that there will be eleven elements in the array
-* `officeArray[<index>] = <element value>;` initializes the element at that index (starting at 0) to be that value
+* `String[14]` indicates that there will be fourteen elements in the array
+* `officeCast[<index>] = <element value>;` initializes the element at that index (starting at 0) to be that value
 
 
 When declaring the array separately, you are allowed to put the `[]` before or after the name of the array, and you may also put a space before them.
@@ -83,27 +81,25 @@ You may have been wondering since the beginning of the course what the `String[]
 
 ### Printing Arrays
 
-If you declare an array called `arrayName` and run `System.out.println(arrayName);`, it will print a hexadecimal value, which indicates the array's address.
+If you declare an array called `arrayName` and run `System.out.println(arrayName);`, it will print a hexadecimal value, which indicates the array's address in memory.
 
-In order to print the content of the array, you can import `java.util.Arrays` and use `System.out.println(Arrays.toString(arrayName));`. 
+In order to print the contents of the array, you can import `java.util.Arrays` and use `System.out.println(Arrays.toString(arrayName));`. 
 
  
 
 ### Accessing Array Elements
 
-The notation for accessing individual elements is the same as assignment values.
+The notation for accessing individual elements is the same as assigning values.
 
 To access an element in an array at index `i`, you can use `arrayName[i];`.
 
-If you try to access an array element before the array has been initialized, the value will either be null (if the data type is an object) or the default value of the data type (if the data type is a primitive).
-
- 
+ 
 
 ### Searching Through Arrays
 
-The old-fashioned way of iterating through an array in Java by looking at each element one-by-one, is to use a standard for loop.
+A **standard `for` loop** can be used to iterate through an array by looking at each element one-by-one.
 
-It would look something like this.
+It would look something like this:
 
 ```java
 for (int i = 0; i < arrayName.length; i++) {
@@ -113,14 +109,14 @@ for (int i = 0; i < arrayName.length; i++) {
 
 To get the length of an array, use `arrayName.length`. The reason it's `length` and not `length()` is that `length` is an attribute, not a method. You'll learn about this in more detail in a later lesson.
 
-Since the index of first element is 0, the loop starts with 0 as the value of `i`. In the second iteration, `i` is 1; in the third iteration, `i` is 2; and so on until `i` is the last index of the array.
+In Java, the index of the first element of every array is 0. In the first iteration, `i` is 0; in the second iteration, `i` is 1; in the third iteration, `i` is 2; and so on until `i` is the last index of the array.
 
 The last index is `arrayName.length - 1` since the first index is 0, which is why `<` is used in the condition instead of `<=`.  Alternatively, you could write `i <= arrayName.length - 1` as the condition, but it's not as nice looking as `i < arrayName.length`.
 
 
-The more modern way of iterating through an array in Java is to use an **enhanced *for* loop**.
+Another way of iterating through an array in Java is to use an **enhanced `for` loop**.
 
-It would look something like this for an array of Strings:
+It would look something like this for an array of strings:
 
 ```java
 for (String elem : array) {
