@@ -21,7 +21,7 @@ Here is a summary of what lists and arrays are called in various languages.
 | Processing | array list |	array |
 | Java | array list	| array |
 
-Java has an `Array` structure and an` ArrayList` structure. This lesson will be on Arrays; the next lesson will be on ArrayLists. 
+Java has an `Array` structure and an` ArrayList` structure. This lesson will be on arrays. You'll learn about array lists in a future lesson.
 
 ### Declaring and Initializing Arrays
 
@@ -97,7 +97,7 @@ To access an element in an array at index `i`, you can use `arrayName[i];`.
 
 ### Searching Through Arrays
 
-A **standard `for` loop** can be used to iterate through an array by looking at each element one-by-one.
+A **standard `for` loop** can be used to iterate through an array by looking at each element one by one.
 
 It would look something like this:
 

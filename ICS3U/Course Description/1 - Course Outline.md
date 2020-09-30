@@ -28,17 +28,20 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Exception Handling
 * File Maintenance
 
-### Days 10-13
+### Days 10-11
 
-* Libraries
+* Binary, ASCII, and Unicode
+* Computer Components
+* Post-Secondary Opportunities
+
+### Days 12-13
+
 * Turtle Graphics
 * Computer Science Research
 
 ### Days 14-15
 
-* Binary, ASCII, and Unicode
-* Computer Components
-* Post-Secondary Opportunities
+* PyGame
 
 ### Days 16-17
 

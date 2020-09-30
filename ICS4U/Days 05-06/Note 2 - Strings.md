@@ -69,8 +69,8 @@ There are also several methods in the `String` class that are useful.
 | `toUpperCase()` | `"Monkey".toUpperCase(); // "MONKEY"` | Changes all lower case letters to be upper case letters. |
 | `toLowerCase()` | `"Monkey".toLowerCase(); // "monkey"` | Changes all upper case letters to be lower case letters. |
 | `toCharArray()` | `"monkey".toCharArray(); // {'m', 'o', 'n', 'k', 'e', 'y'}` | Creates a character array of the characters in the string. |
-| `replace()` | `"abcabc".replace("a", "ef"); //"efbcefbc"` | Replaces all occurrences of `"a"` with `"ef"`. |
-| `replaceFirst()` |	`"abcabc".replaceFirst("a", "ef"); //"efbcabc"` | Replaces the first occurrence of `"a"` with `"ef"`. |
+| `replace()` | `"abcabc".replace("a", "ef"); // "efbcefbc"` | Replaces all occurrences of `"a"` with `"ef"`. |
+| `replaceFirst()` |	`"abcabc".replaceFirst("a", "ef"); // "efbcabc"` | Replaces the first occurrence of `"a"` with `"ef"`. |
 
 
 It is sometimes useful to convert characters to integers (their ASCII value) to check whether they are a certain type of character (e.g. lower case letter, punctuation mark, whitespace, etc.).
