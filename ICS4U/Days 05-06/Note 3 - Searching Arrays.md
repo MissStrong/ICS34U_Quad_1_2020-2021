@@ -2,7 +2,7 @@
 
 ### How Humans Search
 
-How fast can you find the word "panda" in this grid? Don't use CTRL-F or ⌘-F!
+How fast can you find the word "panda" in this **unsorted** grid? Don't use CTRL-F or ⌘-F!
 
 | cat | goose | dog | lion | bear | snake | rabbit |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,7 @@ How fast can you find the word "panda" in this grid? Don't use CTRL-F or ⌘-F!
 | squirrel | bat | sheep | groundhog | chipmunk | aardvark | camel |
 
 
-Now, try finding the word "llama" in this grid. Again, don't use CTRL-F or ⌘-F!
+Now, try finding the word "llama" in this **sorted** grid. Again, don't use CTRL-F or ⌘-F!
 
 | aardvark | chinchilla | duck | goat | leopard | penguin | snake |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -38,7 +38,7 @@ When humans look through a sorted grid to look for a specific item, they tend to
 
 A computer would use an algorithm called binary searching to search for an item in a sorted array. It would check the middle item, and if it isn't the item it's looking for, it would make a binary decision: keep checking in the first half or keep checking in the second half. It would then check the middle item of the "half" it chose, and continue this process until it finds the item. This is the most efficient way that a computer can search for an item in a sorted array.
 
-Try a binary search on this grid with white text. How many words did you check until you found "purple"? If the algorithm is performed correctly, it should take no more than 6 guesses to find any given word (or determine that it isn't there) in array of 64 item.
+Try a binary search on this grid with white text. How many words did you check until you found "purple"? If the algorithm is performed correctly, it should take no more than 6 guesses to find any given word (or determine that it isn't there) in array of 64 items.
 
 
 | amaranth | blue | cerulean | gold | lilac | orchid | raspberry | silver |
