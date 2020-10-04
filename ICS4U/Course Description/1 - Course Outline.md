@@ -24,16 +24,19 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Searching Routines
 * Environmental Sustainability
 
-### Days 7-9
+### Days 7-8
 
+* Two-Dimensional Arrays
 * Flowcharts
 * Sorting Routines
-* Two-Dimensional Arrays
+* Measuring Efficiencies
 
-### Days 10-11
+### Days 9-11
 
+* Paired Programming (Cohort B Only)
 * Array Lists
-* Abstract Data Types
+* HashSets
+* HashTables
 * Computer Science Research
 
 ### Days 12-13

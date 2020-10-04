@@ -22,14 +22,17 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Dictionaries
 * Environmental Sustainability
 
-### Days 7-9
+### Days 7-8
 
+* Scope
+* Documentation
 * Testing
 * Exception Handling
 * File Maintenance
 
-### Days 10-11
+### Days 9-11
 
+* Paired Programming
 * Binary, ASCII, and Unicode
 * Computer Components
 * Post-Secondary Opportunities
