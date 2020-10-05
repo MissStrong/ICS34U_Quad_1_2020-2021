@@ -26,8 +26,7 @@ The efficiency of an algorithm is most often measured based on its worse case or
 To write an algorithm's efficiency in Big O notation:
 1. Look at the worst case.
 2. Expand the expression.
-  3; Look the term that has the most influence on the shape of the graph (if it's a polynomial, it'll be the term with the highest degree).
-
+3. Look the term that has the most influence on the shape of the graph (if it's a polynomial, it'll be the term with the highest degree).
 4. Remove the coefficient on that term. If the term is a constant, change it to 1. If the term contains a logarithm, remove the base.
 5. Put that term in parentheses and put a capital "O" in front of the left parenthesis.
 

@@ -6,7 +6,7 @@ Scope refers to the places where a variable can be accessed. Not all variables c
 
 ### Global Variables
 
-**Global variables** can be accessed from anywhere within a program. They are initialized outside of a structure such as a function or a loop.
+**Global variables** can be accessed from anywhere within a program. They are initialized outside of a structure such as outside a function or a loop.
 
 ```python
 int days_left = 81
@@ -15,7 +15,7 @@ def update_days_left(n):
   days_left = n
 ```
 
-Since the variable `days_left` is not within a structure, we can access and modify it from within a function.
+Since the variable `days_left` is not within a structure, we can access and modify it from within any function.
 
 ### Local Variables
 
@@ -31,5 +31,5 @@ print(my_list)  # this does not work; the program claims that my_list is not def
 
 Since `my_list` is defined within the function `foo()`, it can only be accessed within that function. We can say that the **scope** of `my_list` is the function `foo()`. 
 
-N.B.: `foo()` is the generic name for a function that doesn't accomplish anything meaningful.
+N.B.: `foo()` is a common name for a function that doesn't accomplish anything meaningful.
 

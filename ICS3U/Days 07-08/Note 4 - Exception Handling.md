@@ -16,13 +16,13 @@ Here is an example of a method that handles a division by zero error.
 
 ```python
 def divide_three_ints(a, b, c):
-    try:
-  		return a/b/c
-  	except:
-  		if (b == 0):
-  			print("Error. B cannot be zero.")
-      if (c == 0):
-  			print("Error. C cannot be zero.")
+  try:
+    return a/b/c
+  except:
+    if (b == 0):
+      print("Error. B cannot be zero.")
+    if (c == 0):
+      print("Error. C cannot be zero.")
 ```
 
 The content in the `try` block is run first. It tries to run the lines in the block; if an exception occurs, the exception is "thrown" and the rest of the block does not run. 

@@ -2,7 +2,7 @@
 
 ### Testing
 
-When we test a program to check whether it works, we should to consider all the possible ways it can go wrong. It's usually impossible to check whether complex programs work 100% of the time, but we can do our best by designing solid test cases.
+When we test a program to check whether it works, we should consider all the possible ways it can go wrong. It's usually impossible to check whether complex programs work 100% of the time, but we can do our best by designing solid test cases.
 
 ### Base Cases
 
@@ -10,9 +10,9 @@ When we test a program to check whether it works, we should to consider all the 
 
 ```python
 def highest_num(num_list):
-	highest_num_so_far = num_list[0]
-	for num in num_list:
-		if num > highest_num_so_far:
+  highest_num_so_far = num_list[0]
+  for num in num_list:
+    if num > highest_num_so_far:
       highest_num_so_far = num
   return num
 ```
@@ -27,16 +27,16 @@ The problem with the function above is that it ignores the possibility that the 
 ```python
 def print_1_to_100():
   for i in range(1, 100):
-  	print i
+    print i
 ```
 
 This problem with this function is that `range(1, 100)` is an list of all the numbers between 1 and 99, not 1 and 100. 
 
-These mistakes can happen when we mix up `<` and `<=`.
+These mistakes can also happen when we mix up `<` and `<=`.
 
 ```python
 def is_between_0_and_10(n):
-	return(0 < n and n < 10)
+  return(0 < n and n < 10)
 ```
 
 Depending on whether we wanted to include the numbers 0 and 10, this program may not do what we want it to. If we want to include 0 and 10, we would want to change `<` to `<=` (which is equivalent to ≤).
@@ -45,4 +45,6 @@ Depending on whether we wanted to include the numbers 0 and 10, this program may
 
 **Blackbox Testing** refers to testing a program without looking at the code. We just look at what it's supposed to do and design tests around that.
 
-**Whitebox Testing** refers to testing a program while looking at the code. We consider the design of the algorithm and design tests that we think may go wrong based on the algorithm.
+**Whitebox Testing** refers to testing a program based on how it was implemented. We consider the design of the algorithm and design tests that we think may go wrong based on the algorithm.
+
+Both blackbox testing and whitebox testing can be useful for both manual and automated tests.
