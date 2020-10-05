@@ -2,9 +2,9 @@
 
 ### Worst Cases
 
-The following are the number of swaps each sorting algorithm (same versions as the ones from the previous lesson) does. The variable n is the length of the array.
+The following are the number of swaps each sorting algorithm (same versions as the ones from the previous lesson) does. The variable `n` is the length of the array.
 
-| | Worst Case Description | Worst Case's Number of Swaps |
+| | Worst Case Description | Number of Swaps in Worst Case |
 | --- | --- | --- |
 | Gnome Sort | array is in descending order | *n(n-1)/2* |
 | Bubble Sort | array is in descending order | *n(n-1)/2* |
@@ -26,12 +26,13 @@ The efficiency of an algorithm is most often measured based on its worse case or
 To write an algorithm's efficiency in Big O notation:
 1. Look at the worst case.
 2. Expand the expression.
-3; Look the term that has the most influence on the shape of the graph (if it's a polynomial, it'll be the term with the highest degree).
+  3; Look the term that has the most influence on the shape of the graph (if it's a polynomial, it'll be the term with the highest degree).
+
 4. Remove the coefficient on that term. If the term is a constant, change it to 1. If the term contains a logarithm, remove the base.
 5. Put that term in parentheses and put a capital "O" in front of the left parenthesis.
 
 
-| | Worst Case's Number of Swaps | Most influential term | Coefficient Removed | Complexity in Big O Notation |
+| | Number of Swaps in Worst Case | Most Influential Term | Coefficient Removed | Complexity in Big O Notation |
 | --- | --- | --- | --- | --- |
 | Gnome Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>* | *O(n<sup>2</sup>)* |
 | Bubble Sort | *n(n-1)/2 = n<sup>2</sup>/2 - n/2* | *n<sup>2</sup>/2* | *n<sup>2</sup>* | *O(n<sup>2</sup>)* |
@@ -44,8 +45,6 @@ To write an algorithm's efficiency in Big O notation:
 There is typically a high degree of variance among algorithms that have the same complexity. Regardless, Big O is commonly used to measure efficiency.
 
 The tables above use the number of swaps as the measure of how efficient a sorting algorithm is. The most common way the efficiency is measured is the amount of time it takes to run, which is called the **runtime**. Both the number of swaps and the number of comparisons affect the runtime of these sorting algorithms.
-
-These are the efficiencies that are most commonly referred to for these sorting algorithms. A capital omega Ω is used for best case, and a capital theta Θ is used for the average case.
 
 | | Best Case | Average Case | Worst Case |
 | --- | --- | --- | --- |

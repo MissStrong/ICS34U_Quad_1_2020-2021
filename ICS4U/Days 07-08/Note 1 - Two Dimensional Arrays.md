@@ -2,7 +2,7 @@
 
 ### 2D Arrays
 
-In Java, the term **2D array** is used for arrays whose elements are 1D arrays. Essentially, a 2D array is an array within an array. Each inner array represents a row of the 2D array.
+In Java, the term **2D array** is used for arrays whose *elements* are 1D arrays. Essentially, a 2D array is an array within an array. Each inner array represents a row of the 2D array.
 
 The following grid can be represented using the 2D array `{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}`.
 
@@ -33,7 +33,8 @@ You can simulate printing a 2D array by printing its rows individually.
 To print the 2D array above, you can do the following.
 
 ```java
-System.out.println(Arrays.toString(row0));
-System.out.println(Arrays.toString(row1));
-System.out.println(Arrays.toString(row2));
+for (int[] row : grid) {
+  System.out.println(Arrays.toString(row));
+}
 ```
+

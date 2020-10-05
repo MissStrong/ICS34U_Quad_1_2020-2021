@@ -33,7 +33,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 9-11
 
-* Paired Programming (Cohort B Only)
+* Paired Programming
 * Array Lists
 * HashSets
 * HashTables

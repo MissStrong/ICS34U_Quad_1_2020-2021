@@ -2,7 +2,7 @@
 
 **Sorting** is the process of putting items in a logical order, either from smallest to largest (ascending order), or largest to smallest (descending order). By default, when an array is sorted, we can assume it's in ascending order unless otherwise specified.
 
-There are dozens of sorting algorithms commonly known. Here are visualizations of some common sorting algorithms: [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg)
+There are dozens of sorting algorithms commonly known. Here are visualizations of some common sorting algorithms: [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg).
 
 Here is another video on sorting algorithms: [Sorting Out Sorting](https://www.youtube.com/watch?v=SJwEwA5gOkM). This one was made in 1980 and is a classic. It's worth watching just for the retro sound effects. There is a short recap at the end if you don't want to watch the whole thing.
 
@@ -18,7 +18,7 @@ The following sorting algorithms will be discussed in more detail this lesson. Y
 * Merge Sort
 * Quick Sort
 
-They will be described using **pseudocode**, which is a combination of code and plain English. There are usually several variations for each sorting algorithms -- this lesson only has one variation for each sorting algorithm.
+They will be described using **pseudocode**, which is a combination of code and plain English. There are usually several variations for each sorting algorithm -- this lesson only has one variation for each sorting algorithm.
 
 
 **Gnome Sort**
@@ -35,6 +35,12 @@ Do the following until index+1 is beyond the length of the array:
 
 The idea is that you have a garden gnome sitting at the first element in the array. The gnome looks at the next element and sees whether it is smaller than the one it is sitting at. If it is, it swaps them and goes back to the beginning; if it isn't it moves along and sits at the next element. It repeats this process until it is sitting at the last element in the array. Gnome Sort was originally named "Stupid Sort" due to it performing far more comparisons than actually needed.
 
+Here is a flowchart for the Gnome Sort algorithm.
+
+![Gnome Sort](../../Images/Gnome_Sort_Flowchart.png)
+
+
+
 
 **Bubble Sort**
 
@@ -48,6 +54,10 @@ Do the following until the array is sorted:
 ```
 
 The idea is that you have a bubble around two elements at a time. The bubble starts at the first two elements. If the elements in the bubble are not in order, they are swapped. The bubble then moves on to the second two elements. Again, it swaps the elements if they are not in order. It repeats this process until it reaches the end, then it goes back to the beginning and repeats the entire process over and over again until the entire array is sorted.
+
+Here is a flowchart for the Bubble Sort algorithm:
+
+![Bubble Sort](../../Images/Bubble_Sort_Flowchart.png)
 
 
 **Shaker Sort**
@@ -83,6 +93,10 @@ The idea is that after `n` iterations, the first `n` elements are sorted by inse
 
 Rather than swapping adjacent elements, another option is to directly insert the element into its correct place and move the ones after it forwards one spot.
 
+Here is a flowchart for the Insertion Sort algorithm:
+
+![Insertion Sort](../../Images/Insertion_Sort_Flowchart.png)
+
 
 **Selection Sort**
 
@@ -94,7 +108,11 @@ Do the following until the array is sorted:
     Increase the index by 1
 ```
 
-The idea is that after n iterations, the element that belongs in the nth spot is swapped in order to put it in its correct place. The process continues until all the elements are in their correct place.
+The idea is that after `n` iterations, the element that belongs in the nth spot is swapped in order to put it in its correct place. The process continues until all the elements are in their correct place.
+
+Here is a flowchart for the Selection Sort algorithm:
+
+![Selection Sort](../../Images/Selection_Sort_Flowchart.png)
 
 
 **Shell Sort**
@@ -133,16 +151,7 @@ Do the following until the array is sorted:
     Decrease the gap by a factor of 1.3 (i.e. divide it by 1.3)
 ```
 
-Comb Sort is the same as Shell sort, except the gap starts at the length of the array divided by 1.3 and it decreases by a factor of 1.3 every time. The value 1.3 is supposedly the one of the ideal gap sizes, which minimizes the number of swaps necessary.
-
-Here are some sample flowcharts of some of these methods:
-
-* [Gnome Sort](../../Images/Gnome_Sort_Flowchart.png)
-
-* [Bubble Sort](../../Images/Bubble_Sort_Flowchart.png)
-* [Insertion Sort](../../Images/Insertion_Sort_Flowchart.png)
-
-* [Selection Sort](../../Images/Selection_Sort_Flowchart.png)
+Comb Sort is the same as Shell Sort, except the gap starts at the length of the array divided by 1.3 and it decreases by a factor of 1.3 every time. The value 1.3 is supposedly the one of the ideal gap sizes, which minimizes the number of swaps necessary.
 
 
 **Bogo Sort**

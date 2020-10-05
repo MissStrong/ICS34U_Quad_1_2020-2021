@@ -28,7 +28,6 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Documentation
 * Testing
 * Exception Handling
-* File Maintenance
 
 ### Days 9-11
 
