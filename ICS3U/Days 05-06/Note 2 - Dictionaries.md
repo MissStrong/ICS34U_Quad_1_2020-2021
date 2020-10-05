@@ -29,7 +29,7 @@ for item in grocery_list:
   print(grocery_list[item])  # prints each number one at a time on separate lines
 ```
 
-Notice that the keys might not be printed in the order you would expect. This is because dictionaries do not have indices like lists do. The order in which the keys are outputted depends on where they are stored in memory, which may be different every time the program is run.
+Notice that the keys might not be printed in the order you would expect. This is because dictionaries do not have indices like lists do. The order in which the keys are outputted depends on where they are stored in memory, which could be different every time the program is run.
 
 We can add information to dictionaries like this:
 
