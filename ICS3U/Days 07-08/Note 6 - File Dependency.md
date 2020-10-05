@@ -20,7 +20,7 @@ names = ["Eren", "Mikasa", "Armin"]
 
 For the filename, do not put the .py extension.
 
-If we only want to use specific functions from other files, we can use an import statement in the form `from <filename> import <function>`
+If we only want to use specific functions from other files, we can use an import statement in the form `from <filename> import <function>`. 
 
 **main.py**
 
