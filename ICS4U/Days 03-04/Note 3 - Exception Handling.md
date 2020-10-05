@@ -1,7 +1,7 @@
 ## Note – Exception Handling
 
 
-Whenever you run a program that has errors, you may have noticed that NetBeans attempts to tells you what kind of error it is. 
+Whenever you run a program that has errors, you may have noticed that repl.it attempts to tells you what kind of error it is. 
 
 For example, if you try to divide by zero, you get a message in the console saying that there was an **exception** called `java.lang.ArithmeticException`.
 
@@ -33,7 +33,7 @@ The content in the `catch` block runs only when the exception `ArithmeticExcepti
 
 The line `System.exit(0);` is used to indicate that the program has successfully run. If `System.exit(1);` is used instead, the program terminates abruptly. Since `return 0;` (0 is a dummy value here) is placed after it, it is actually never reached. If you exclude the `return` statement, NetBeans warns you that a `return` statement is missing and won't let you run your program. (If anyone knows a nicer way to get around this, please let me know.)
 
-If there are more lines of code you want to run regardless of whether the catch block is run, you can use a `finally` block. You'll see an example of a `finally block` in the next lesson: *Lesson -- Input/Output (I/O) Using Text Files*.
+If there are more lines of code you want to run regardless of whether the catch block is run, you can use a `finally` block. 
 
 
 ### NullPointerException

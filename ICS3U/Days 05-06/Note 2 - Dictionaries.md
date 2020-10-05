@@ -1,4 +1,4 @@
-Dictionaries
+Lesson: Dictionaries
 -------
 
 Dictionaries are used to store and quickly look up "pairs" of information.

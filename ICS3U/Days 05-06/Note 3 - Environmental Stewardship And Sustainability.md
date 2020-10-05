@@ -1,4 +1,4 @@
-## Environmental Stewardship and Sustainability
+## Lesson: Environmental Stewardship and Sustainability
 
 ### E-waste
 
