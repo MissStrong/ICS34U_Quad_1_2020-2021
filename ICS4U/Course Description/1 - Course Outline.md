@@ -34,13 +34,13 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 ### Days 9-11
 
 * Paired Programming
-* Array Lists
-* HashSets
-* HashTables
 * Computer Science Research
 
 ### Days 12-13
 
+* Array Lists
+* HashSets
+* HashMaps
 * Recursion
 * Finite Data Representation
 * Post-Secondary Opportunities

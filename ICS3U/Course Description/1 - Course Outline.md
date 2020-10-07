@@ -24,22 +24,24 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 7-8
 
+* Sets
 * Scope
 * Documentation
 * Testing
 * Exception Handling
+* Python Programs with Multiple Python Files
 
 ### Days 9-11
 
 * Paired Programming
 * Binary, ASCII, and Unicode
 * Computer Components
-* Post-Secondary Opportunities
+* Computer Science Research
 
 ### Days 12-13
 
-* Turtle Graphics
-* Computer Science Research
+* I/O with Text Files
+* Post-Secondary Opportunities
 
 ### Days 14-15
 
