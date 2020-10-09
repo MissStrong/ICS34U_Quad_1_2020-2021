@@ -43,11 +43,11 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * HashMaps
 * Recursion
 * Finite Data Representation
-* Post-Secondary Opportunities
 
 ### Days 14-15
 
 * Graphical User Interfaces
+* Post-Secondary Opportunities
 
 ### Days 16-17
 

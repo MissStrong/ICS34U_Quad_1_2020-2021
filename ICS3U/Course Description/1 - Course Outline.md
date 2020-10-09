@@ -41,11 +41,12 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 ### Days 12-13
 
 * I/O with Text Files
-* Post-Secondary Opportunities
+* Object-Oriented Programming
 
 ### Days 14-15
 
 * PyGame
+* Post-Secondary Opportunities
 
 ### Days 16-17
 
