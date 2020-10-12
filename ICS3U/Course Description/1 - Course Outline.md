@@ -43,17 +43,17 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * I/O with Text Files
 * Object-Oriented Programming
 
-### Days 14-15
+### Days 14-16
 
-* PyGame
+* PyGame (Colours, Shapes, and Text)
 * Post-Secondary Opportunities
 
-### Days 16-17
+### Days 17-18
 
-* Flowcharts
-* Software Developent Life Cycle
+* Aliasing
+* PyGame (Keyboard and Mouse Interactions)
 
-### Days 18-20
+### Days 19-20
 
 * Culminating Task
 
