@@ -4,7 +4,7 @@
 
 All computers use a fixed number of bits to represent data. This means that there are limits as to what integers a program can use.  
 
-Java uses 64-bit data representation: the lowest integer it can store is -2<sup>31</sup> and the highest integer it can store is 2<sup>31</sup> - 1. You can use `Integer.MAX_VALUE` and `Integer.MIN_VALUE` to obtain these values.
+Java uses 32-bit data representation for integers: The lowest integer it can store is -2<sup>31</sup> and the highest integer it can store is 2<sup>31</sup> - 1. You can use `Integer.MAX_VALUE` and `Integer.MIN_VALUE` to obtain these values.
 
 When you try to compute a value beyond this domain, it is called **integer overflow** (beyond `Integer.MAX_VALUE`) or **integer underflow** (beyond `Integer.MIN_VALUE`).
 
@@ -21,5 +21,5 @@ When you try to compute a value beyond this domain, it is called **integer overf
 
 ### Imprecision of Double and Float
 
-Programming languages tend to be poor at accurately dividing long decimal numbers due to finite data representation. Be aware that if a calculation in any of your programs seems to be off, it might be that your algorithm may be fine and the Java simply can't accurately perform the calculation.
+Programming languages tend to be poor at accurately dividing long decimal numbers due to finite data representation. Be aware that if a calculation in any of your programs seems to be off, it might be that your algorithm may be fine and the Java simply can't perform the calculation accurately.
 

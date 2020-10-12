@@ -10,7 +10,7 @@ In computer science, a **recursive method** is a method that calls itself within
 > 
 > Search the word *recursion* on Google. What happens?
 > 
-> [See image](../Images/Recursion.md).
+> [See image](../../Images/Recursion.png).
 
 
 ### Fibonacci Sequence
