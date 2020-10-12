@@ -10,7 +10,7 @@ These are some the typical operations of a dictionary:
 * insert a new key-value pair into the dictionary
 * remove a key-value pair from the dictionary
 
-Dictionaries have many applications. As the name "dictionary" implies, they can be used as dictionary of words and their definitions. They can also be used to store values that correspond to different traits of an item. For example, your dictionary can contain the key-value pairs `"Name"="Alice"`, `"Gender"="F"`, and `"Age"="40"`, which all correspond to a particular human.
+Dictionaries have many applications. As the name "dictionary" implies, they can be used as dictionary of words and their definitions. They can also be used to store values that correspond to different traits of an item. 
 
 ### HashMap
 
@@ -18,17 +18,28 @@ Dictionaries have many applications. As the name "dictionary" implies, they can 
 
 | Method            | Explanation                                                  | Example                                                      | Explanation                                                  |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `HashMap()`       | Creates a new (empty) dictionary.                            | `HashMap<String, Integer> hashMapExample = new HashMap();`   | Creates a new dictionaries called `hashMapExample` in which the keys are strings and the values are integers. |
+| `HashMap()`       | Creates a new (empty) dictionary.                            | `HashMap<String, Integer> hashMapExample = new HashMap();`   | Creates a new dictionary called `hashMapExample` in which the keys are strings and the values are integers. |
 | `put()`           | Adds a new key-value pair into the dictionary.               | `hashMapExample.put("a", 1);`</br>`hashMapExample.put("b", 2);` | Adds the key-value pairs `"a"=1` and `"b"=2` to `hashMapExample`. |
 | `get()`           | Returns the value corresponding to the key, or `null` if the key is not in the dictionary. | `hashMapExample.get("a");`                                   | Returns `1`, which is the value that corresponds to the key `"a"`. |
 | `remove()`        | Removes the key-value pair from the dictionary.              | `hashMapExample.remove("a");`                                | Removes the key-value pair `"a"=1` from `hashMapExample`.    |
 | `clear()`         | Removes all key-value pairs from the dictionary.             | `hashMapExample.clear();`                                    | Removes all the key-value pairs from `hashMapExample`. Now, it is an empty dictionary. |
 | `size()`          | Returns the number of key-value pairs in the dictionary.     | `hashMapExample.size();`                                     | Returns `0`, since `hashMapExample` is empty.                |
 | `isEmpty()`       | Returns `true` is the dictionary is empty, and `false` otherwise. | `hashMapExample.isEmpty();`                                  | Returns `true`, since `hashMapExample` is empty.             |
-| `containsKey()`   | Returns `true` if the dictionary contains the key, and `false` otherwise. | `hashMapExample.containsKey("a");`                           | Returns `false`, since `hashMapExample` is empty.            |
-| `containsValue()` | Returns `true` if the dictionary contains the value, and `false` otherwise. | `hashMapExample.containsValue(3)`                            | Returns `false`, since `hashMapExample` is empty.            |
+| `containsKey()`   | Returns `true` if the dictionary contains the key, and `false` otherwise. | `hashMapExample.containsKey("a");`                           | Returns `false`, since `hashMapExample` doesn't have `"a"` as a key. |
+| `containsValue()` | Returns `true` if the dictionary contains the value, and `false` otherwise. | `hashMapExample.containsValue(3)`                            | Returns `false`, since `hashMapExample`  doesn't have `3` as a value. |
 
-N.B.: In some other programming languages, such as Python, the keys in dictionaries must be immutable data types, which excludes lists. This is not the case for Java; a key can be any data type as long as it isn't primitive.
+N.B.: In some other programming languages, such as Python, the keys in dictionaries must be immutable data types, which excludes lists. This is not the case for Java; a key can be any composite data type. Instead of using primitive daya types, you can use their corresponding class name.
+
+| Primitive Data Type | Class       |
+| ------------------- | ----------- |
+| `int`               | `Integer`   |
+| `byte`              | `Byte`      |
+| `short`             | `Short`     |
+| `long`              | `Long`      |
+| `float`             | `Float`     |
+| `double`            | `Double`    |
+| `boolean`           | `Boolean`   |
+| `char`              | `Character` |
 
 Here is an example of some of the things you can do with `HashMap`.
 
@@ -69,6 +80,6 @@ System.out.println();
 
 ### Hash
 
-The word "hash" has shown up several times in this course. Data can be compressed and stored using a **hash function**. This is sometimes called **hashing**. Hash maps, hash tables, and hash sets use hashing to efficiently store and retrieve data.
+The word "hash" has shown up several times in this course. Data can be compressed and stored using a **hash function**. This is sometimes called **hashing**. Hash maps, hash tables, and hash sets use hashing to efficiently store and retrieve data. 
 
 The number sign # (a.k.a pound sign/key, if you're referring to a telephone) is also sometimes called a hash, but for unrelated reasons. The word "hashtag" from Twitter is related to the name of the symbol #, and unrelated to hashing. 

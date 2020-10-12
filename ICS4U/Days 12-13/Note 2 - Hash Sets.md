@@ -24,13 +24,13 @@ Java has a class called `HashSet`, which can be used as a set. You need to impor
 
 | Method       | Explanation                                                  | Example                                                     | Explanation                                                  |
 | ------------ | ------------------------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| `HashSet()`  | Creates a new (empty) set.                                   | `HashSet<Double> hashSetExample = new HashSet();`           | Creates a new set called `hashMapExample` that will contain `Double` values. |
-| `add()`      | Adds a element into the set.                                 | `hashSetExample.add(92.1);`</br>`hashSetExample.add(86.4);` | Adds the elements `92.1` and `86.4` to `hashMapExample`.     |
+| `HashSet()`  | Creates a new (empty) set.                                   | `HashSet<Double> hashSetExample = new HashSet();`           | Creates a new set called `hashSetExample` that will contain `Double` values. |
+| `add()`      | Adds an element into the set.                                | `hashSetExample.add(92.1);`</br>`hashSetExample.add(86.4);` | Adds the elements `92.1` and `86.4` to `hashSetExample`.     |
 | `contains()` | Returns `true` if the set contains the element, and `false` otherwise. | `hashSetExample.contains(71.9);`                            | Returns `false`.                                             |
-| `remove()`   | Removes the element from the set.                            | `hashSetExample.remove(92.1);`                              | Removes the element `92.1` from `hashMapExample`.            |
-| `clear()`    | Removes all of the elements from the set.                    | `hashSetExample.clear();`                                   | Removes all the elements from `hashMapExample`. Now, it is an empty set. |
-| `size()`     | Returns the number of elements in the set.                   | `hashSetExample.size();`                                    | Returns `0`, since `hashMapExample` is empty.                |
-| `isEmpty()`  | Returns `true` is the set is empty, and `false` otherwise.   | `hashSetExample.isEmpty();`                                 | Returns `true`, since `hashMapExample` is `empty`.           |
+| `remove()`   | Removes the element from the set.                            | `hashSetExample.remove(92.1);`                              | Removes the element `92.1` from `hashSetExample`.            |
+| `clear()`    | Removes all of the elements from the set.                    | `hashSetExample.clear();`                                   | Removes all the elements from `hashSetExample`. Now, it is an empty set. |
+| `size()`     | Returns the number of elements in the set.                   | `hashSetExample.size();`                                    | Returns `0`, since `hashSetExample` is empty.                |
+| `isEmpty()`  | Returns `true` is the set is empty, and `false` otherwise.   | `hashSetExample.isEmpty();`                                 | Returns `true`, since `hashSetExample` is `empty`.           |
 
 Here is an example of some of the things you can do with `HashSet`.
 
