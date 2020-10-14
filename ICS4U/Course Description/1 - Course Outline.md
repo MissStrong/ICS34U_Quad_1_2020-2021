@@ -44,17 +44,13 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Recursion
 * Finite Data Representation
 
-### Days 14-15
+### Days 14-16
 
 * Graphical User Interfaces
+* Object-Oriented Programming
 * Post-Secondary Opportunities
 
-### Days 16-17
-
-* Object-Oriented Programming
-* Software Developent Life Cycle
-
-### Days 18-20
+### Days 17-20
 
 * Culminating Task
 
