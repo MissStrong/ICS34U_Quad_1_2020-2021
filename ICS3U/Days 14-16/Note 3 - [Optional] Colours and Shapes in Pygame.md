@@ -20,7 +20,7 @@ Here are the RGB values of common colours.
 
 ### Colours in Pygame
 
-Most functions in Pygame that take a colour as parameters needs the colour to be expressed as a tuple. For convenience, we can make constants for the colours we use in our program.
+Most functions in Pygame that take a colour as a parameter need the colour to be expressed as a tuple. For convenience, we can make constants for the colours we use in our program.
 
 ```python
 # Initializing colours (using RGB values) so we can use them later
@@ -33,7 +33,7 @@ blue = (0, 0, 255)
 
 ### Screen Coordinates
 
-Coordinates in computer science are different than coordinates in math. 
+Coordinates in programming are different than coordinates in math. 
 
 In math, 2-dimensional coordinates can be graphed on a Cartesian Plane like this:
 
@@ -45,9 +45,9 @@ In computer science, we don't use the Cartesian plane for coordinates. Instead, 
 
 For example, if we are referring to a specific pixel in an image, we would use this coordinate system instead of the Cartesian plane. 
 
-The idea is that this is similar to how we would refer to cells in a table: The row number followed by colum number, with Row 0 Column 0 representing the cell in the top-left corner. This is also similar to how we read in English: left to right, top to bottom.
+The idea is that this is similar to how we would refer to cells in a table: The row number followed by column number, with Row 0 Column 0 representing the cell in the top-left corner. This is also similar to how we read in English: left to right, top to bottom.
 
-The coordinate (0, 0) is referred to as the **origin**. In computer science, **the origin always is at the top-left corner**. 
+The coordinate (0, 0) is referred to as the **origin**. When programming, **the origin is always is at the top-left corner**. 
 
 In math, the origin is at the center of the Cartesian plane. If we are only using the positive quadrant of the Cartesian plane, the origin is at the bottom-left corner.
 

@@ -6,7 +6,7 @@ Pygame is a set of custom modules that allows us to display graphics in a window
 
 ### Pygame.org
 
-The official website for Pygame is [pygame.org](pygame.org) and the documentation page is [pygame.org/docs/](pygame.org/docs/).
+The official website for Pygame is [pygame.org](http://www.pygame.org) and the documentation page is [pygame.org/docs](http://www.pygame.org/docs/).
 
 On the documentation page, you can find information about  the different constants, variables, and functions you can use.
 

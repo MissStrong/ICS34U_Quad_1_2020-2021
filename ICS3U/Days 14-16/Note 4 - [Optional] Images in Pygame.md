@@ -34,7 +34,7 @@ This will place the origin of the image (the top-left corner) at the origin of t
 
 
 
-The size of the image will not be modified to fit the screen. If the image is larger than the screen, only a portion of will appear on the screen. If we want to resize the image, we can use `pygame.transform.scale()` like this:
+The size of the image will not be modified to fit the screen. If the image is larger than the screen, only a portion of will appear on the screen. If we want to resize the image, we can use `pygame.transform.scale()` like this:
 
 ```python
 # Resizes the image take up the entire screen
@@ -46,11 +46,11 @@ The parameters of pygame.transform.scale() are:
 dog = pygame.transform.scale(dog, (800, 600))
 ```
 
-This will resize the dog image to be 800 pixels by 600 pixels (the size of the screen). If the original image didn't have the ration 4:3, it will stretch the image out and possibly distort it.
+This will resize the dog image to be 800 pixels by 600 pixels (the size of the screen). If the original image didn't have the ratio 4:3, it will stretch the image out and possibly distort it.
 
 ![](../../Images/Full_Screen_Dog.png)
 
-We can reflect an image using `pygame.transform.flip()` like this:
+We can reflect an image using `pygame.transform.flip()` like this:
 
 ```python
 '''
@@ -64,7 +64,7 @@ dog = pygame.transform.flip(dog, False, True)
 
 ![](../../Images/Reflected_Dog.png)
 
-We can rotate an image using `pygame.transform.rotate()` like this:
+We can rotate an image using `pygame.transform.rotate()` like this:
 
 ```python
 '''
@@ -72,7 +72,7 @@ The parameters of pygame.transform.rotate() are:
 - image
 - the number of degrees to rotate counterclockwise
 '''
-dog = pygame.transform.flip(dog, 60)
+dog = pygame.transform.rotate(dog, 60)
 ```
 
 ![](../../Images/Rotated_Dog.png)
