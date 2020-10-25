@@ -45,9 +45,12 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 
 ### Days 14-16
 
-* PyGame (Colours, Shapes, Text, Keyboard and Mouse Interactions)
-* Aliasing
 * Post-Secondary Opportunities
+* PyGame 
+  * Colours and Shapes
+  * Images
+  * Text and Fonts
+  * Keyboard and Mouse Interactions
 
 ### Days 17-20
 

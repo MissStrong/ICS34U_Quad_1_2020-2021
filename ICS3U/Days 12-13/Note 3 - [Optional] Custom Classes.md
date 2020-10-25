@@ -1,4 +1,6 @@
+## Custom Classes
 
+### Programming Methodologies
 
 There are three programming methodologies: 
 
@@ -68,7 +70,7 @@ class Enemy:
     self.attacks = attacks
     self.health = health
 
-  def __eq__(self): # Overriding the equality operation ==
+  def __repr__(self): # Overriding the print operation
     line1 = "Name: " + self.name
     line2 = "\nAttacks " + str(self.attacks)
     line3 = "\nHealth " + str(self.health)
@@ -99,7 +101,7 @@ class Enemy:
     self.attacks = attacks
     self.health = health
     
-  def __eq__(self):
+  def __repr__(self):
     line1 = "Name: " + self.name
     line2 = "\nAttacks " + str(self.attacks)
     line3 = "\nHealth " + str(self.health)
