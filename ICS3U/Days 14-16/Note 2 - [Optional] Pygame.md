@@ -30,7 +30,7 @@ screen = pygame.display.set_mode((800, 600))
 
 # Keeps the program running and updating
 while True:
-    pygame.display.update()
+  pygame.display.update()
 
 ```
 

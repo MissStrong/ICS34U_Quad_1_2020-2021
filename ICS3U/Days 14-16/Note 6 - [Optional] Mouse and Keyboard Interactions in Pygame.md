@@ -34,10 +34,10 @@ Here is how we can check whether the mouse has been left-clicked or right-clicke
 
 ```python
 while True:
-  # Checks for mouse activity
   for event in pygame.event.get():
+  	# Checks for mouse clicking
     if event.type == pygame.MOUSEBUTTONDOWN:
-      # Checks whether the mouse was clicked
+      # Checks whether the left or right mouse buttons were clicked
       left_clicked = pygame.mouse.get_pressed()[0]
       right_clicked = pygame.mouse.get_pressed()[2]
 ```
@@ -51,7 +51,7 @@ position = [0, 0]
 
 while True:
   for event in pygame.event.get():
-  	# Checks for keys that have been pressed
+    # Checks for keys that have been pressed
     if event.type == pygame.KEYDOWN:
       if event.key == pygame.K_LEFT:
         # Moves the position 10 pixels left
@@ -61,7 +61,7 @@ while True:
         position[0] += 10
       if event.key == pygame.K_UP:
         # Moves the position 10 pixels up
-        position[0] -= 10
+        position[1] -= 10
       if event.key == pygame.K_DOWN:
         # Moves the position 10 pixels down
         position[1] += 10

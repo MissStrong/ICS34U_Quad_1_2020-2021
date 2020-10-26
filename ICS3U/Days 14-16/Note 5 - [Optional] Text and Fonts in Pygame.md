@@ -5,7 +5,7 @@ When we put text onto a graphic in Pygame, there are several things we have to d
 * the colour
 * the font
 * the font size
-* any additional styling (i.e. italics, bolding, and underlining) 
+* any additional styling (i.e. bolding, italics, and underlining) 
 * the location on the screen
 
 ### Fonts
@@ -31,15 +31,11 @@ white = (255, 255, 255)
 # Paints the background black
 screen.fill(black)
 
-# Stores the font "Helvetica" with font size 50
+# Stores the font "Helvetica" with font size 100
 '''
 The parameters of pygame.font.Font() are:
 - the ttf file of the font
 - the font size
-
-You can download the ttf file for any font by searching for it on Google.
-
-Drag the file into the "File" area (where main.py is).
 '''
 helvetica_font = pygame.font.Font('helvetica.ttf', 100)
 
@@ -65,7 +61,7 @@ screen.blit(text, text.get_rect())
 
 # Keeps the program running and updating
 while True:
-    pygame.display.update()
+  pygame.display.update()
 ```
 
 Here is the result:
@@ -105,7 +101,7 @@ The following can be assigned a 2-dimensional tuple.
 * `midright`
 * `center`
 
-The following can be assigned to an integer, representing either an x-coordinate or a y-coordinate.
+The following can be assigned to an integer, representing either an x-coordinate or y-coordinate.
 
 * `top`
 * `left`
@@ -115,14 +111,14 @@ The following can be assigned to an integer, representing either an x-coordinate
 * `centerx`
 * `centery`
 
-If we want additional styling, we can set the `italic`, `bold` and `underline` properties of the font to be `True`. By default, they are all false.
+If we want additional styling, we can set the `bold` , `italic`, and `underline` properties of the font to be `True`. By default, they are all `False`.
 
 ```python
-# Turns italics on
-helvetica_font.set_italic(True)
-
 # Turns bolding on
 helvetica_font.set_bold(True)
+
+# Turns italics on
+helvetica_font.set_italic(True)
 
 # Turns underlining on
 helvetica_font.set_underline(True)

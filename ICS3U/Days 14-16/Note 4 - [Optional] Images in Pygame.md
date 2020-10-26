@@ -28,7 +28,7 @@ screen.blit(dog, (0, 0))
 
 # Keeps the program running and updating
 while True:
-    pygame.display.update()
+  pygame.display.update()
 ```
 
 This will place the origin of the image (the top-left corner) at the origin of the screen (also the top-left corner).
