@@ -21,6 +21,9 @@ The image file needs to be under "Files" (where main.py is).
 dog = pygame.image.load("dog.png")
 
 # Displays it with the top-left corner at (0, 0)
+'''
+The word "blit" means to draw a graphic.
+'''
 screen.blit(dog, (0, 0))
 
 # Keeps the program running and updating

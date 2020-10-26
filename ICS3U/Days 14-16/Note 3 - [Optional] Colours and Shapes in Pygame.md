@@ -31,6 +31,12 @@ green = (0, 255, 0)
 blue = (0, 0, 255)
 ```
 
+The default colour of a screen in Pygame is black. We can change the colour of the screen using `screen.fill()` like this:
+
+```python
+screen.fill(white) # Makes the background white
+```
+
 ### Screen Coordinates
 
 Coordinates in programming are different than coordinates in math. 
