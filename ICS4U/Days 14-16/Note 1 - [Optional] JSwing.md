@@ -8,7 +8,7 @@ We'll be using JSwing to create GUIs in repl.it.
 
 ###JSwing in Repl.it
 
-To make a JSwing program, make sure you select Java Swing as the language instead of Java. This will provide an additional window for our graphics to appear.
+To make a JSwing program, make sure you select **Java Swing** as the language instead of Java. This will provide an additional window for our graphics to appear.
 
 ### JSwing Frames
 
@@ -106,6 +106,14 @@ JButton calculateButton = new JButton("Calculate");
 calculateButton.setBounds(425, 500, 100, 50);
 // Adds button to frame
 frame.add(calculateButton);
+```
+
+We can get the text in a label or a text field using `getText()` and we can change the text using `setText`.
+
+For example, this line makes the previous text field blank:
+
+```Java
+amountField.setText("");
 ```
 
 
