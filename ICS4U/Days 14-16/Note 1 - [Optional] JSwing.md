@@ -84,7 +84,7 @@ prompt.setFont(new Font(prompt.getFont().getName(), Font.PLAIN, 20));
 frame.add(prompt);
 ```
 
-The `setBounds()` function is used to make a component show up in a specific location on the frame. The first two parameters are the x and y coortinates of the top-left corner, and the last two parameters are the width (horizontal distance) and height (vertical distance) of the component.
+The `setBounds()` function is used to make a component show up in a specific location on the frame. The first two parameters are the *x* and *y* coordinates of the top-left corner of the component, and the last two parameters are the *width* (horizontal distance) and *height* (vertical distance) of the component.
 
 The syntax is quite similar for other components.
 
