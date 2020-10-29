@@ -23,9 +23,11 @@ You can use `textBoxName.requestFocus();` (with `textBoxName` being the name of 
 You can change the background and/or foreground colour of components. For example, if there is one button that should stand out more than the others, you can make it a darker colour to make it stand out more. You can look up the RGB (red-green-blue) value or hexadecimal value of the colour you want t use it.
 
 ```Java
-button.setForeground(new Color(58, 86, 34)); // Makes the button navy blue
+button.setBackground(Color.white); // Makes the text on the button white
+button.setBackground(new Color(0, 0, 150)); // Makes the button a dark blue colour
 ```
 
+The list of built-in colours are listed in the Java Docs: https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html.
 
 ### Key Listening
 
