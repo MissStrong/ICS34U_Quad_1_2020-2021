@@ -4,11 +4,11 @@
 
 A **Graphical User Interface** (GUI, pronounced "gooey") is a way of interacting with a computer. Examples of GUIs include windows, icons, and menus. 
 
-We'll be using JSwing to greate GUIs in repl.t.
+We'll be using JSwing to create GUIs in repl.it.
 
 ###JSwing in Repl.it
 
-To make a JSwing program, make sure you select JSwing as the language instead of Java. This will provide an additional window for our graphics to appear.
+To make a JSwing program, make sure you select Java Swing as the language instead of Java. This will provide an additional window for our graphics to appear.
 
 ### JSwing Frames
 
@@ -54,7 +54,7 @@ For example, if we are referring to a specific pixel in an image, we would use t
 
 The idea is that this is similar to how we would refer to cells in a table: The row number followed by column number, with Row 0 Column 0 representing the cell in the top-left corner. This is also similar to how we read in English: left to right, top to bottom.
 
-The coordinate (0, 0) is referred to as the **origin**. When programming, **the origin is always is at the top-left corner**. 
+The coordinate (0, 0) is referred to as the **origin**. When programming, **the origin is always at the top-left corner**. 
 
 In math, the origin is at the center of the Cartesian plane. If we are only using the positive quadrant of the Cartesian plane, the origin is at the bottom-left corner.
 
