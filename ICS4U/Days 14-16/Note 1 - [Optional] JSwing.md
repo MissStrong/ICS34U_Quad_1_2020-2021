@@ -119,7 +119,7 @@ Here is an example of an action listener.
 ```Java
 JButton clickMeButton = new JButton("Click Me");
 // Makes the button do something
-clearButton.addActionListener(new ActionListener() {  
+clickMeButton.addActionListener(new ActionListener() {  
   public void actionPerformed(ActionEvent e) {
     // Prints the message when the button is clicked
     System.out.println("You clicked the button!")
