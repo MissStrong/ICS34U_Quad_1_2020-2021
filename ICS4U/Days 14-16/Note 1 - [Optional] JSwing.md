@@ -71,7 +71,7 @@ A frame can have many components on it. Here are some examples:
 
 In this example, we'll be focusing on text fields, labels, and buttons.
 
-The example below is for a label
+The example below is for a label:
 
 ```Java
 JLabel prompt = new JLabel("Enter amount: $");
@@ -86,7 +86,7 @@ frame.add(prompt);
 
 The `setBounds()` function is used to make a component show up in a specific location on the frame. The first two parameters are the *x* and *y* coordinates of the top-left corner of the component, and the last two parameters are the *width* (horizontal distance) and *height* (vertical distance) of the component.
 
-The syntax is quite similar for other components.
+The syntax is quite similar for other components:
 
 ```Java
 JTextField amountField = new JTextField("0.00");
@@ -114,7 +114,7 @@ frame.add(calculateButton);
 
 An **action listener** is a part of a program that "listens" for a particular to event to happen. For example, it could be waiting for a button to be pressed. We use action listeners to add functionality to buttons.
 
-Here is an example of an action listener.
+Here is an example of an action listener:
 
 ```Java
 JButton clickMeButton = new JButton("Click Me");
