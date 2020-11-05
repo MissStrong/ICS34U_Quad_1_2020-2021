@@ -9,18 +9,9 @@ You will be evaluated in the following four essential learnings:
 * **Programming Concepts:** Design and analyze complex algorithms and computer programs.
 * **Digital Scholar:** Investigate ethical, environmental, and emerging technology topics.
 
-### Final Grade
-
-Your final grade will be determined as follows (in accordance with Ministry of Education standards).
-
-* 70% Term Work – Based on evaluations conducted throughout the course.
-* 30% Summative Evaluation – A final evaluation in the form of a group project.
-
-Unless otherwise indicated, all assignments will be submitted using the dropbox for that assignment.
-
 ### Assignment Submission
 
-All assignments are expected to be submitted by the due date noted in their respective activity pages. You must submit the assignments through the virtual classroom on Google Classroom or repl.it. If you feel that you don't have enough time to finish an activity before its due date, please contact me so we can sort it out.
+All assignments are expected to be submitted by the due date. You must submit the assignments through the virtual classroom on Google Classroom or repl.it. If you feel that you don't have enough time to finish an activity before its due date, please contact me so we can sort it out.
 
 ### Viewing Grades and Feedback
 
@@ -28,7 +19,7 @@ After an assignment is graded, you can view your grade for it along with complem
 
 ### Learning Skills
 
-The following Learning Skills descriptions will be used to help assess Learning Skills.
+The following descriptions will be used to help assess Learning Skills.
 
 _Responsibility_
 
@@ -87,5 +78,5 @@ WCI's policy regarding late and missed assignments is in effect. The policy can 
 
 *At WCI it is the expectation that students will submit all required work by the assigned due dates as evidence of their learning. Students who fail to meet a due date and/or deadline for assignment, test or performance task may be subject to the Completion Policy flowchart (see below). Failure to submit this work by the deadline, despite these interventions, will be recorded as incomplete and may result in a loss of credit. Lateness is an issue of student responsibility and time management, as well as academic fairness. Students are responsible for providing evidence of their achievement of the overall expectations within a time frame established by teacher. As stated in WRDSB Procedure 1660, marks are not deducted for major assignments (i.e., assignments that comprise part of the critical body of evidence for evaluation and reporting purposes) that are handed in late; rather, instances of lateness can be reflected in the student’s Learning Skills. Major assignments will be clearly communicated by the course teacher.*
 
-![](../../Images/Late_Assignment_Policy.png)
+![](/Users/Sarah/Downloads/ICS34U_Semester_1_2020-2021/Images/Late_Assignment_Policy.png)
 

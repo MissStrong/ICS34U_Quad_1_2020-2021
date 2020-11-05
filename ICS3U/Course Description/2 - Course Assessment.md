@@ -9,18 +9,9 @@ You will be evaluated in the following four essential learnings:
 * **Programming Concepts:** Design and analyze complex algorithms and computer programs.
 * **Digital Scholar:** Investigate ethical, environmental, and emerging technology topics.
 
-### Final Grade
-
-Your final grade will be determined as follows (in accordance with Ministry of Education standards).
-
-* 70% Term Work – Based on evaluations conducted throughout the course.
-* 30% Summative Evaluation – A final evaluation in the form of a group project.
-
-Unless otherwise indicated, all assignments will be submitted using the dropbox for that assignment.
-
 ### Assignment Submission
 
-All assignments are expected to be submitted by the due date noted in their respective activity pages. You must submit the assignments through the virtual classroom on Google Classroom or repl.it. If you feel that you don't have enough time to finish an activity before its due date, please contact me so we can sort it out.
+All assignments are expected to be submitted by the due date. You must submit the assignments through the virtual classroom on Google Classroom or repl.it. If you feel that you don't have enough time to finish an activity before its due date, please contact me so we can sort it out.
 
 ### Viewing Grades and Feedback
 
@@ -28,7 +19,7 @@ After an assignment is graded, you can view your grade for it along with complem
 
 ### Learning Skills
 
-The following Learning Skills descriptions will be used to help assess Learning Skills.
+The following descriptions will be used to help assess Learning Skills.
 
 _Responsibility_
 

@@ -31,9 +31,9 @@ The list of built-in colours are listed in the Java Docs: https://docs.oracle.co
 
 ### Key Listening
 
-The action listeners you've been using for buttons "listen" for when the button is pressed or released. You can also make them "listen" for a specific key to be pressed or released.
+The action listeners you've been using for buttons "listen" for when the button is pressed or released. You can also make the program "listen" for a specific key to be pressed or released.
 
-You can allow a user to press ENTER to perform the same action of pressing a button. 
+For examplem, you can allow a user to press ENTER to as a keyboard shortcut for pressing a button. 
 
 ```java
 textFieldName.addKeyListener(new KeyAdapter() { // Replace textFieldName with the actual name of the text field
