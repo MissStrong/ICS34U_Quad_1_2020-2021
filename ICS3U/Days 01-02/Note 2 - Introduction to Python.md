@@ -25,5 +25,5 @@ The code above contains an example of a single-line comment.
 
 ### Writing Python Code Using Repl.it
 
-In this course, we will be using [repl.it](http://repl.it) to write Java code. Repl.it is a web-based programming environment. It is not the best programming environment, however we are using it since it can be used on your Chromebooks as does not require you to download any software.
+In this course, we will be using [repl.it](http://repl.it) to write Python code. Repl.it is a web-based programming environment. It is not the best programming environment, however we are using it since it can be used on your Chromebooks as does not require you to download any software.
 
