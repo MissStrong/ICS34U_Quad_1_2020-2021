@@ -47,6 +47,7 @@ function2():
 We cannot have two files that import each other. This would give a circular dependency error.
 
 For example, this would not work:
+
 **file1.py**
 ```python
 import file2
