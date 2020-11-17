@@ -42,3 +42,19 @@ function2():
   print("World")
 ```
 
+### Circular Dependency
+
+We cannot have two files that import each other. This would give a circular dependency error.
+
+For example, this would not work:
+**file1.py**
+```python
+import file2
+```
+
+**file2.py**
+```python
+import file1
+```
+
+To get around multiple file dependencies, we can use a third file and modify which parts of the program are in which file.
