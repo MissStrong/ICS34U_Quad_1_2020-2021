@@ -6,7 +6,7 @@ A **Graphical User Interface** (GUI, pronounced "gooey") is a way of interacting
 
 We'll be using JSwing to create GUIs in repl.it.
 
-###JSwing in Repl.it
+### JSwing in Repl.it
 
 To make a JSwing program, make sure you select **Java Swing** as the language instead of Java. This will provide an additional window for our graphics to appear.
 
@@ -44,11 +44,11 @@ Before we go into GUI components, it'll be important to know that coordinates in
 
 In math, 2-dimensional coordinates can be graphed on a Cartesian Plane like this:
 
-![](/Users/Sarah/Downloads/ICS34U_Semester_1_2020-2021/Images/Cartesian_Plane.jpg)
+![](../../Images/Cartesian_Plane.jpg)
 
 In computer science, we don't use the Cartesian plane for coordinates. Instead, the coordinate system we use looks like this:
 
-![](/Users/Sarah/Downloads/ICS34U_Semester_1_2020-2021/Images/Coordinate_Plane.jpg)
+![](../..1/Images/Coordinate_Plane.jpg)
 
 For example, if we are referring to a specific pixel in an image, we would use this coordinate system instead of the Cartesian plane. 
 
